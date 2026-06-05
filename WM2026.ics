@@ -6,7 +6,23 @@ METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
 X-WR-CALDESC:Alle 104 Spiele der FIFA Fußball-Weltmeisterschaft 2026 mit deutschen Anstoßzeiten (MESZ)
-
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:MEZ
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:MESZ
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:wm2026-001@wm2026
 SUMMARY:🇲🇽 Mexiko vs 🇿🇦 Südafrika (Gruppe A)
@@ -15,7 +31,6 @@ DTEND;TZID=Europe/Berlin:20260611T230000
 LOCATION:Estadio Azteca, Mexiko-Stadt
 DESCRIPTION:FIFA WM 2026 - Gruppe A - Eröffnungsspiel
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-002@wm2026
 SUMMARY:🇰🇷 Südkorea vs 🇨🇿 Tschechien (Gruppe A)
@@ -24,7 +39,6 @@ DTEND;TZID=Europe/Berlin:20260612T060000
 LOCATION:Estadio Akron, Guadalajara
 DESCRIPTION:FIFA WM 2026 - Gruppe A
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-003@wm2026
 SUMMARY:🇨🇦 Kanada vs 🇧🇦 Bosnien-Herzegowina (Gruppe B)
@@ -33,7 +47,6 @@ DTEND;TZID=Europe/Berlin:20260612T230000
 LOCATION:BMO Field, Toronto
 DESCRIPTION:FIFA WM 2026 - Gruppe B
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-004@wm2026
 SUMMARY:🇶🇦 Katar vs 🇨🇭 Schweiz (Gruppe B)
@@ -42,7 +55,6 @@ DTEND;TZID=Europe/Berlin:20260613T230000
 LOCATION:Levi's Stadium, San Francisco Bay Area
 DESCRIPTION:FIFA WM 2026 - Gruppe B
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-005@wm2026
 SUMMARY:🇺🇸 USA vs 🇵🇾 Paraguay (Gruppe D)
@@ -51,7 +63,6 @@ DTEND;TZID=Europe/Berlin:20260613T050000
 LOCATION:SoFi Stadium, Los Angeles
 DESCRIPTION:FIFA WM 2026 - Gruppe D
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-006@wm2026
 SUMMARY:🇧🇷 Brasilien vs 🇲🇦 Marokko (Gruppe C)
@@ -60,7 +71,6 @@ DTEND;TZID=Europe/Berlin:20260614T020000
 LOCATION:MetLife Stadium, New York/New Jersey
 DESCRIPTION:FIFA WM 2026 - Gruppe C
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-007@wm2026
 SUMMARY:🇭🇹 Haiti vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland (Gruppe C)
@@ -69,7 +79,6 @@ DTEND;TZID=Europe/Berlin:20260614T050000
 LOCATION:Gillette Stadium, Boston
 DESCRIPTION:FIFA WM 2026 - Gruppe C
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-008@wm2026
 SUMMARY:🇩🇪 Deutschland vs 🇨🇼 Curaçao (Gruppe E)
@@ -78,7 +87,6 @@ DTEND;TZID=Europe/Berlin:20260614T210000
 LOCATION:NRG Stadium, Houston
 DESCRIPTION:FIFA WM 2026 - Gruppe E
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-009@wm2026
 SUMMARY:🇳🇱 Niederlande vs 🇯🇵 Japan (Gruppe F)
@@ -87,7 +95,6 @@ DTEND;TZID=Europe/Berlin:20260615T000000
 LOCATION:AT&T Stadium, Dallas
 DESCRIPTION:FIFA WM 2026 - Gruppe F
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-010@wm2026
 SUMMARY:🇦🇺 Australien vs 🇹🇷 Türkei (Gruppe D)
@@ -96,7 +103,6 @@ DTEND;TZID=Europe/Berlin:20260614T080000
 LOCATION:BC Place, Vancouver
 DESCRIPTION:FIFA WM 2026 - Gruppe D
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-011@wm2026
 SUMMARY:🇨🇮 Elfenbeinküste vs 🇪🇨 Ecuador (Gruppe E)
@@ -105,7 +111,6 @@ DTEND;TZID=Europe/Berlin:20260615T030000
 LOCATION:Lincoln Financial Field, Philadelphia
 DESCRIPTION:FIFA WM 2026 - Gruppe E
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-012@wm2026
 SUMMARY:🇸🇪 Schweden vs 🇹🇳 Tunesien (Gruppe F)
@@ -114,7 +119,6 @@ DTEND;TZID=Europe/Berlin:20260615T060000
 LOCATION:Estadio BBVA, Monterrey
 DESCRIPTION:FIFA WM 2026 - Gruppe F
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-013@wm2026
 SUMMARY:🇪🇸 Spanien vs 🇨🇻 Kap Verde (Gruppe H)
@@ -123,7 +127,6 @@ DTEND;TZID=Europe/Berlin:20260615T200000
 LOCATION:Mercedes-Benz Stadium, Atlanta
 DESCRIPTION:FIFA WM 2026 - Gruppe H
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-014@wm2026
 SUMMARY:🇧🇪 Belgien vs 🇪🇬 Ägypten (Gruppe G)
@@ -132,7 +135,6 @@ DTEND;TZID=Europe/Berlin:20260615T230000
 LOCATION:Lumen Field, Seattle
 DESCRIPTION:FIFA WM 2026 - Gruppe G
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-015@wm2026
 SUMMARY:🇸🇦 Saudi-Arabien vs 🇺🇾 Uruguay (Gruppe H)
@@ -141,7 +143,6 @@ DTEND;TZID=Europe/Berlin:20260616T020000
 LOCATION:Hard Rock Stadium, Miami
 DESCRIPTION:FIFA WM 2026 - Gruppe H
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-016@wm2026
 SUMMARY:🇮🇷 Iran vs 🇳🇿 Neuseeland (Gruppe G)
@@ -150,7 +151,6 @@ DTEND;TZID=Europe/Berlin:20260616T050000
 LOCATION:SoFi Stadium, Los Angeles
 DESCRIPTION:FIFA WM 2026 - Gruppe G
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-017@wm2026
 SUMMARY:🇫🇷 Frankreich vs 🇸🇳 Senegal (Gruppe I)
@@ -159,7 +159,6 @@ DTEND;TZID=Europe/Berlin:20260616T230000
 LOCATION:MetLife Stadium, New York/New Jersey
 DESCRIPTION:FIFA WM 2026 - Gruppe I
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-018@wm2026
 SUMMARY:🇮🇶 Irak vs 🇳🇴 Norwegen (Gruppe I)
@@ -168,7 +167,6 @@ DTEND;TZID=Europe/Berlin:20260617T020000
 LOCATION:Gillette Stadium, Boston
 DESCRIPTION:FIFA WM 2026 - Gruppe I
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-019@wm2026
 SUMMARY:🇦🇷 Argentinien vs 🇩🇿 Algerien (Gruppe J)
@@ -177,7 +175,6 @@ DTEND;TZID=Europe/Berlin:20260617T050000
 LOCATION:Arrowhead Stadium, Kansas City
 DESCRIPTION:FIFA WM 2026 - Gruppe J
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-020@wm2026
 SUMMARY:🇦🇹 Österreich vs 🇯🇴 Jordanien (Gruppe J)
@@ -186,7 +183,6 @@ DTEND;TZID=Europe/Berlin:20260617T080000
 LOCATION:Levi's Stadium, San Francisco Bay Area
 DESCRIPTION:FIFA WM 2026 - Gruppe J
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-021@wm2026
 SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Kroatien (Gruppe L)
@@ -195,7 +191,6 @@ DTEND;TZID=Europe/Berlin:20260618T000000
 LOCATION:AT&T Stadium, Dallas
 DESCRIPTION:FIFA WM 2026 - Gruppe L
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-022@wm2026
 SUMMARY:🇨🇴 Kolumbien vs 🇸🇮 Slowenien (Gruppe K)
@@ -204,7 +199,6 @@ DTEND;TZID=Europe/Berlin:20260618T030000
 LOCATION:Hard Rock Stadium, Miami
 DESCRIPTION:FIFA WM 2026 - Gruppe K
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-023@wm2026
 SUMMARY:🇨🇿 Tschechien vs 🇿🇦 Südafrika (Gruppe A)
@@ -213,7 +207,6 @@ DTEND;TZID=Europe/Berlin:20260618T200000
 LOCATION:Mercedes-Benz Stadium, Atlanta
 DESCRIPTION:FIFA WM 2026 - Gruppe A
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-024@wm2026
 SUMMARY:🇨🇭 Schweiz vs 🇧🇦 Bosnien-Herzegowina (Gruppe B)
@@ -222,7 +215,6 @@ DTEND;TZID=Europe/Berlin:20260618T230000
 LOCATION:SoFi Stadium, Los Angeles
 DESCRIPTION:FIFA WM 2026 - Gruppe B
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-025@wm2026
 SUMMARY:🇵🇹 Portugal vs 🇿🇼 Simbabwe (Gruppe K)
@@ -231,7 +223,6 @@ DTEND;TZID=Europe/Berlin:20260618T060000
 LOCATION:Allegiant Stadium, Las Vegas
 DESCRIPTION:FIFA WM 2026 - Gruppe K
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-026@wm2026
 SUMMARY:🇺🇾 Uruguay vs 🇨🇻 Kap Verde (Gruppe H)
@@ -240,7 +231,6 @@ DTEND;TZID=Europe/Berlin:20260622T020000
 LOCATION:Hard Rock Stadium, Miami
 DESCRIPTION:FIFA WM 2026 - Gruppe H
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-027@wm2026
 SUMMARY:🇳🇿 Neuseeland vs 🇪🇬 Ägypten (Gruppe G)
@@ -249,7 +239,6 @@ DTEND;TZID=Europe/Berlin:20260622T050000
 LOCATION:BC Place, Vancouver
 DESCRIPTION:FIFA WM 2026 - Gruppe G
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-028@wm2026
 SUMMARY:🇲🇽 Mexiko vs 🇰🇷 Südkorea (Gruppe A)
@@ -258,7 +247,6 @@ DTEND;TZID=Europe/Berlin:20260619T050000
 LOCATION:Estadio Akron, Guadalajara
 DESCRIPTION:FIFA WM 2026 - Gruppe A
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-029@wm2026
 SUMMARY:🇨🇦 Kanada vs 🇶🇦 Katar (Gruppe B)
@@ -267,7 +255,6 @@ DTEND;TZID=Europe/Berlin:20260619T020000
 LOCATION:BC Place, Vancouver
 DESCRIPTION:FIFA WM 2026 - Gruppe B
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-030@wm2026
 SUMMARY:🇺🇸 USA vs 🇦🇺 Australien (Gruppe D)
@@ -276,7 +263,6 @@ DTEND;TZID=Europe/Berlin:20260619T230000
 LOCATION:Lumen Field, Seattle
 DESCRIPTION:FIFA WM 2026 - Gruppe D
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-031@wm2026
 SUMMARY:🇳🇱 Niederlande vs 🇸🇪 Schweden (Gruppe F)
@@ -285,7 +271,6 @@ DTEND;TZID=Europe/Berlin:20260620T210000
 LOCATION:NRG Stadium, Houston
 DESCRIPTION:FIFA WM 2026 - Gruppe F
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-032@wm2026
 SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland vs 🇲🇦 Marokko (Gruppe C)
@@ -294,7 +279,6 @@ DTEND;TZID=Europe/Berlin:20260620T020000
 LOCATION:Gillette Stadium, Boston
 DESCRIPTION:FIFA WM 2026 - Gruppe C
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-033@wm2026
 SUMMARY:🇧🇷 Brasilien vs 🇭🇹 Haiti (Gruppe C)
@@ -303,7 +287,6 @@ DTEND;TZID=Europe/Berlin:20260620T050000
 LOCATION:Lincoln Financial Field, Philadelphia
 DESCRIPTION:FIFA WM 2026 - Gruppe C
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-034@wm2026
 SUMMARY:🇩🇪 Deutschland vs 🇨🇮 Elfenbeinküste (Gruppe E)
@@ -312,7 +295,6 @@ DTEND;TZID=Europe/Berlin:20260621T000000
 LOCATION:BMO Field, Toronto
 DESCRIPTION:FIFA WM 2026 - Gruppe E
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-035@wm2026
 SUMMARY:🇹🇷 Türkei vs 🇵🇾 Paraguay (Gruppe D)
@@ -321,7 +303,6 @@ DTEND;TZID=Europe/Berlin:20260620T080000
 LOCATION:Levi's Stadium, San Francisco Bay Area
 DESCRIPTION:FIFA WM 2026 - Gruppe D
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-036@wm2026
 SUMMARY:🇪🇨 Ecuador vs 🇨🇼 Curaçao (Gruppe E)
@@ -330,7 +311,6 @@ DTEND;TZID=Europe/Berlin:20260621T040000
 LOCATION:Arrowhead Stadium, Kansas City
 DESCRIPTION:FIFA WM 2026 - Gruppe E
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-037@wm2026
 SUMMARY:🇹🇳 Tunesien vs 🇯🇵 Japan (Gruppe F)
@@ -339,7 +319,6 @@ DTEND;TZID=Europe/Berlin:20260621T080000
 LOCATION:Estadio BBVA, Monterrey
 DESCRIPTION:FIFA WM 2026 - Gruppe F
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-038@wm2026
 SUMMARY:🇪🇸 Spanien vs 🇸🇦 Saudi-Arabien (Gruppe H)
@@ -348,7 +327,6 @@ DTEND;TZID=Europe/Berlin:20260621T200000
 LOCATION:Mercedes-Benz Stadium, Atlanta
 DESCRIPTION:FIFA WM 2026 - Gruppe H
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-039@wm2026
 SUMMARY:🇧🇪 Belgien vs 🇮🇷 Iran (Gruppe G)
@@ -357,7 +335,6 @@ DTEND;TZID=Europe/Berlin:20260621T230000
 LOCATION:SoFi Stadium, Los Angeles
 DESCRIPTION:FIFA WM 2026 - Gruppe G
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-040@wm2026
 SUMMARY:🇦🇷 Argentinien vs 🇦🇹 Österreich (Gruppe J)
@@ -366,7 +343,6 @@ DTEND;TZID=Europe/Berlin:20260622T210000
 LOCATION:AT&T Stadium, Dallas
 DESCRIPTION:FIFA WM 2026 - Gruppe J
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-041@wm2026
 SUMMARY:🇫🇷 Frankreich vs 🇮🇶 Irak (Gruppe I)
@@ -375,7 +351,6 @@ DTEND;TZID=Europe/Berlin:20260623T010000
 LOCATION:Lincoln Financial Field, Philadelphia
 DESCRIPTION:FIFA WM 2026 - Gruppe I
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-042@wm2026
 SUMMARY:🇳🇴 Norwegen vs 🇸🇳 Senegal (Gruppe I)
@@ -384,7 +359,6 @@ DTEND;TZID=Europe/Berlin:20260623T040000
 LOCATION:MetLife Stadium, New York/New Jersey
 DESCRIPTION:FIFA WM 2026 - Gruppe I
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-043@wm2026
 SUMMARY:🇯🇴 Jordanien vs 🇩🇿 Algerien (Gruppe J)
@@ -393,7 +367,6 @@ DTEND;TZID=Europe/Berlin:20260623T070000
 LOCATION:Levi's Stadium, San Francisco Bay Area
 DESCRIPTION:FIFA WM 2026 - Gruppe J
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-045@wm2026
 SUMMARY:🇵🇹 Portugal vs 🇸🇮 Slowenien (Gruppe K)
@@ -402,7 +375,6 @@ DTEND;TZID=Europe/Berlin:20260623T230000
 LOCATION:Allegiant Stadium, Las Vegas
 DESCRIPTION:FIFA WM 2026 - Gruppe K
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-046@wm2026
 SUMMARY:🇨🇴 Kolumbien vs 🇿🇼 Simbabwe (Gruppe K)
@@ -411,7 +383,6 @@ DTEND;TZID=Europe/Berlin:20260624T030000
 LOCATION:NRG Stadium, Houston
 DESCRIPTION:FIFA WM 2026 - Gruppe K
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-047@wm2026
 SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇸🇩 Sudan (Gruppe L)
@@ -420,7 +391,6 @@ DTEND;TZID=Europe/Berlin:20260624T060000
 LOCATION:Hard Rock Stadium, Miami
 DESCRIPTION:FIFA WM 2026 - Gruppe L
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-048@wm2026
 SUMMARY:🇭🇷 Kroatien vs 🇸🇾 Syrien (Gruppe L)
@@ -429,7 +399,6 @@ DTEND;TZID=Europe/Berlin:20260624T210000
 LOCATION:Gillette Stadium, Boston
 DESCRIPTION:FIFA WM 2026 - Gruppe L
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-049@wm2026
 SUMMARY:🇨🇭 Schweiz vs 🇨🇦 Kanada (Gruppe B)
@@ -438,7 +407,6 @@ DTEND;TZID=Europe/Berlin:20260624T230000
 LOCATION:BC Place, Vancouver
 DESCRIPTION:FIFA WM 2026 - Gruppe B
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-050@wm2026
 SUMMARY:🇧🇦 Bosnien-Herzegowina vs 🇶🇦 Katar (Gruppe B)
@@ -447,7 +415,6 @@ DTEND;TZID=Europe/Berlin:20260624T230000
 LOCATION:Lumen Field, Seattle
 DESCRIPTION:FIFA WM 2026 - Gruppe B
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-051@wm2026
 SUMMARY:🇿🇦 Südafrika vs 🇰🇷 Südkorea (Gruppe A)
@@ -456,7 +423,6 @@ DTEND;TZID=Europe/Berlin:20260625T050000
 LOCATION:Estadio BBVA, Monterrey
 DESCRIPTION:FIFA WM 2026 - Gruppe A
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-052@wm2026
 SUMMARY:🇨🇿 Tschechien vs 🇲🇽 Mexiko (Gruppe A)
@@ -465,7 +431,6 @@ DTEND;TZID=Europe/Berlin:20260625T050000
 LOCATION:Estadio Azteca, Mexiko-Stadt
 DESCRIPTION:FIFA WM 2026 - Gruppe A
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-053@wm2026
 SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Schottland vs 🇧🇷 Brasilien (Gruppe C)
@@ -474,7 +439,6 @@ DTEND;TZID=Europe/Berlin:20260625T020000
 LOCATION:Hard Rock Stadium, Miami
 DESCRIPTION:FIFA WM 2026 - Gruppe C
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-054@wm2026
 SUMMARY:🇲🇦 Marokko vs 🇭🇹 Haiti (Gruppe C)
@@ -483,7 +447,6 @@ DTEND;TZID=Europe/Berlin:20260625T020000
 LOCATION:Mercedes-Benz Stadium, Atlanta
 DESCRIPTION:FIFA WM 2026 - Gruppe C
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-055@wm2026
 SUMMARY:🇪🇨 Ecuador vs 🇩🇪 Deutschland (Gruppe E)
@@ -492,7 +455,6 @@ DTEND;TZID=Europe/Berlin:20260626T000000
 LOCATION:MetLife Stadium, New York/New Jersey
 DESCRIPTION:FIFA WM 2026 - Gruppe E
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-056@wm2026
 SUMMARY:🇨🇼 Curaçao vs 🇨🇮 Elfenbeinküste (Gruppe E)
@@ -501,7 +463,6 @@ DTEND;TZID=Europe/Berlin:20260626T000000
 LOCATION:Lincoln Financial Field, Philadelphia
 DESCRIPTION:FIFA WM 2026 - Gruppe E
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-057@wm2026
 SUMMARY:🇯🇵 Japan vs 🇸🇪 Schweden (Gruppe F)
@@ -510,7 +471,6 @@ DTEND;TZID=Europe/Berlin:20260626T030000
 LOCATION:AT&T Stadium, Dallas
 DESCRIPTION:FIFA WM 2026 - Gruppe F
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-058@wm2026
 SUMMARY:🇹🇳 Tunesien vs 🇳🇱 Niederlande (Gruppe F)
@@ -519,7 +479,6 @@ DTEND;TZID=Europe/Berlin:20260626T030000
 LOCATION:Arrowhead Stadium, Kansas City
 DESCRIPTION:FIFA WM 2026 - Gruppe F
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-059@wm2026
 SUMMARY:🇵🇾 Paraguay vs 🇦🇺 Australien (Gruppe D)
@@ -528,7 +487,6 @@ DTEND;TZID=Europe/Berlin:20260626T060000
 LOCATION:Levi's Stadium, San Francisco Bay Area
 DESCRIPTION:FIFA WM 2026 - Gruppe D
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-060@wm2026
 SUMMARY:🇹🇷 Türkei vs 🇺🇸 USA (Gruppe D)
@@ -537,7 +495,6 @@ DTEND;TZID=Europe/Berlin:20260626T060000
 LOCATION:SoFi Stadium, Los Angeles
 DESCRIPTION:FIFA WM 2026 - Gruppe D
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-061@wm2026
 SUMMARY:🇳🇴 Norwegen vs 🇫🇷 Frankreich (Gruppe I)
@@ -546,7 +503,6 @@ DTEND;TZID=Europe/Berlin:20260626T230000
 LOCATION:Gillette Stadium, Boston
 DESCRIPTION:FIFA WM 2026 - Gruppe I
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-062@wm2026
 SUMMARY:🇸🇳 Senegal vs 🇮🇶 Irak (Gruppe I)
@@ -555,7 +511,6 @@ DTEND;TZID=Europe/Berlin:20260626T230000
 LOCATION:BMO Field, Toronto
 DESCRIPTION:FIFA WM 2026 - Gruppe I
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-063@wm2026
 SUMMARY:🇺🇾 Uruguay vs 🇪🇸 Spanien (Gruppe H)
@@ -564,7 +519,6 @@ DTEND;TZID=Europe/Berlin:20260627T040000
 LOCATION:Estadio Akron, Guadalajara
 DESCRIPTION:FIFA WM 2026 - Gruppe H
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-064@wm2026
 SUMMARY:🇨🇻 Kap Verde vs 🇸🇦 Saudi-Arabien (Gruppe H)
@@ -573,7 +527,6 @@ DTEND;TZID=Europe/Berlin:20260627T040000
 LOCATION:NRG Stadium, Houston
 DESCRIPTION:FIFA WM 2026 - Gruppe H
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-065@wm2026
 SUMMARY:🇦🇹 Österreich vs 🇩🇿 Algerien (Gruppe J)
@@ -582,7 +535,6 @@ DTEND;TZID=Europe/Berlin:20260627T030000
 LOCATION:Allegiant Stadium, Las Vegas
 DESCRIPTION:FIFA WM 2026 - Gruppe J
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-066@wm2026
 SUMMARY:🇯🇴 Jordanien vs 🇦🇷 Argentinien (Gruppe J)
@@ -591,7 +543,6 @@ DTEND;TZID=Europe/Berlin:20260627T030000
 LOCATION:Levi's Stadium, San Francisco Bay Area
 DESCRIPTION:FIFA WM 2026 - Gruppe J
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-067@wm2026
 SUMMARY:🇳🇿 Neuseeland vs 🇧🇪 Belgien (Gruppe G)
@@ -600,7 +551,6 @@ DTEND;TZID=Europe/Berlin:20260627T070000
 LOCATION:BC Place, Vancouver
 DESCRIPTION:FIFA WM 2026 - Gruppe G
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-068@wm2026
 SUMMARY:🇪🇬 Ägypten vs 🇮🇷 Iran (Gruppe G)
@@ -609,7 +559,6 @@ DTEND;TZID=Europe/Berlin:20260627T070000
 LOCATION:Lumen Field, Seattle
 DESCRIPTION:FIFA WM 2026 - Gruppe G
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-069@wm2026
 SUMMARY:🇵🇹 Portugal vs 🇨🇴 Kolumbien (Gruppe K)
@@ -618,7 +567,6 @@ DTEND;TZID=Europe/Berlin:20260627T230000
 LOCATION:Allegiant Stadium, Las Vegas
 DESCRIPTION:FIFA WM 2026 - Gruppe K
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-070@wm2026
 SUMMARY:🇿🇼 Simbabwe vs 🇸🇮 Slowenien (Gruppe K)
@@ -627,7 +575,6 @@ DTEND;TZID=Europe/Berlin:20260627T230000
 LOCATION:NRG Stadium, Houston
 DESCRIPTION:FIFA WM 2026 - Gruppe K
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-071@wm2026
 SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇸🇾 Syrien (Gruppe L)
@@ -636,7 +583,6 @@ DTEND;TZID=Europe/Berlin:20260627T060000
 LOCATION:AT&T Stadium, Dallas
 DESCRIPTION:FIFA WM 2026 - Gruppe L
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-072@wm2026
 SUMMARY:🇭🇷 Kroatien vs 🇸🇩 Sudan (Gruppe L)
@@ -645,7 +591,6 @@ DTEND;TZID=Europe/Berlin:20260627T060000
 LOCATION:Gillette Stadium, Boston
 DESCRIPTION:FIFA WM 2026 - Gruppe L
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-073@wm2026
 SUMMARY:⚽ Sechzehntelfinale 1 (S33 1. vs S34 2.)
@@ -654,7 +599,6 @@ DTEND;TZID=Europe/Berlin:20260628T230000
 LOCATION:MetLife Stadium, New York/New Jersey
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale - Sieger bestimmt sich nach Gruppenphase
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-074@wm2026
 SUMMARY:⚽ Sechzehntelfinale 2
@@ -663,7 +607,6 @@ DTEND;TZID=Europe/Berlin:20260629T020000
 LOCATION:Hard Rock Stadium, Miami
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-075@wm2026
 SUMMARY:⚽ Sechzehntelfinale 3
@@ -672,7 +615,6 @@ DTEND;TZID=Europe/Berlin:20260629T230000
 LOCATION:AT&T Stadium, Dallas
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-076@wm2026
 SUMMARY:⚽ Sechzehntelfinale 4
@@ -681,7 +623,6 @@ DTEND;TZID=Europe/Berlin:20260630T020000
 LOCATION:Lincoln Financial Field, Philadelphia
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-077@wm2026
 SUMMARY:⚽ Sechzehntelfinale 5
@@ -690,7 +631,6 @@ DTEND;TZID=Europe/Berlin:20260630T230000
 LOCATION:Mercedes-Benz Stadium, Atlanta
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-078@wm2026
 SUMMARY:⚽ Sechzehntelfinale 6
@@ -699,7 +639,6 @@ DTEND;TZID=Europe/Berlin:20260701T020000
 LOCATION:SoFi Stadium, Los Angeles
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-079@wm2026
 SUMMARY:⚽ Sechzehntelfinale 7
@@ -708,7 +647,6 @@ DTEND;TZID=Europe/Berlin:20260701T230000
 LOCATION:Levi's Stadium, San Francisco Bay Area
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-080@wm2026
 SUMMARY:⚽ Sechzehntelfinale 8
@@ -717,7 +655,6 @@ DTEND;TZID=Europe/Berlin:20260702T020000
 LOCATION:Lumen Field, Seattle
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-081@wm2026
 SUMMARY:⚽ Sechzehntelfinale 9
@@ -726,7 +663,6 @@ DTEND;TZID=Europe/Berlin:20260702T230000
 LOCATION:BC Place, Vancouver
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-082@wm2026
 SUMMARY:⚽ Sechzehntelfinale 10
@@ -735,7 +671,6 @@ DTEND;TZID=Europe/Berlin:20260703T020000
 LOCATION:BMO Field, Toronto
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-083@wm2026
 SUMMARY:⚽ Sechzehntelfinale 11
@@ -744,7 +679,6 @@ DTEND;TZID=Europe/Berlin:20260703T230000
 LOCATION:Arrowhead Stadium, Kansas City
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-084@wm2026
 SUMMARY:⚽ Sechzehntelfinale 12
@@ -753,7 +687,6 @@ DTEND;TZID=Europe/Berlin:20260704T020000
 LOCATION:Allegiant Stadium, Las Vegas
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-085@wm2026
 SUMMARY:⚽ Sechzehntelfinale 13
@@ -762,7 +695,6 @@ DTEND;TZID=Europe/Berlin:20260704T230000
 LOCATION:NRG Stadium, Houston
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-086@wm2026
 SUMMARY:⚽ Sechzehntelfinale 14
@@ -771,7 +703,6 @@ DTEND;TZID=Europe/Berlin:20260705T020000
 LOCATION:Estadio Azteca, Mexiko-Stadt
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-087@wm2026
 SUMMARY:⚽ Sechzehntelfinale 15
@@ -780,7 +711,6 @@ DTEND;TZID=Europe/Berlin:20260705T230000
 LOCATION:Gillette Stadium, Boston
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-088@wm2026
 SUMMARY:⚽ Sechzehntelfinale 16
@@ -789,7 +719,6 @@ DTEND;TZID=Europe/Berlin:20260706T020000
 LOCATION:MetLife Stadium, New York/New Jersey
 DESCRIPTION:FIFA WM 2026 - Sechzehntelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-089@wm2026
 SUMMARY:⚽ Achtelfinale 1
@@ -798,7 +727,6 @@ DTEND;TZID=Europe/Berlin:20260707T230000
 LOCATION:Hard Rock Stadium, Miami
 DESCRIPTION:FIFA WM 2026 - Achtelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-090@wm2026
 SUMMARY:⚽ Achtelfinale 2
@@ -807,7 +735,6 @@ DTEND;TZID=Europe/Berlin:20260708T030000
 LOCATION:SoFi Stadium, Los Angeles
 DESCRIPTION:FIFA WM 2026 - Achtelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-091@wm2026
 SUMMARY:⚽ Achtelfinale 3
@@ -816,7 +743,6 @@ DTEND;TZID=Europe/Berlin:20260708T230000
 LOCATION:AT&T Stadium, Dallas
 DESCRIPTION:FIFA WM 2026 - Achtelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-092@wm2026
 SUMMARY:⚽ Achtelfinale 4
@@ -825,7 +751,6 @@ DTEND;TZID=Europe/Berlin:20260709T030000
 LOCATION:MetLife Stadium, New York/New Jersey
 DESCRIPTION:FIFA WM 2026 - Achtelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-093@wm2026
 SUMMARY:⚽ Achtelfinale 5
@@ -834,7 +759,6 @@ DTEND;TZID=Europe/Berlin:20260709T230000
 LOCATION:Levi's Stadium, San Francisco Bay Area
 DESCRIPTION:FIFA WM 2026 - Achtelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-094@wm2026
 SUMMARY:⚽ Achtelfinale 6
@@ -843,7 +767,6 @@ DTEND;TZID=Europe/Berlin:20260710T030000
 LOCATION:Lumen Field, Seattle
 DESCRIPTION:FIFA WM 2026 - Achtelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-095@wm2026
 SUMMARY:⚽ Achtelfinale 7
@@ -852,7 +775,6 @@ DTEND;TZID=Europe/Berlin:20260710T230000
 LOCATION:BC Place, Vancouver
 DESCRIPTION:FIFA WM 2026 - Achtelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-096@wm2026
 SUMMARY:⚽ Achtelfinale 8
@@ -861,7 +783,6 @@ DTEND;TZID=Europe/Berlin:20260711T030000
 LOCATION:NRG Stadium, Houston
 DESCRIPTION:FIFA WM 2026 - Achtelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-097@wm2026
 SUMMARY:⚽ Viertelfinale 1
@@ -870,7 +791,6 @@ DTEND;TZID=Europe/Berlin:20260714T230000
 LOCATION:Mercedes-Benz Stadium, Atlanta
 DESCRIPTION:FIFA WM 2026 - Viertelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-098@wm2026
 SUMMARY:⚽ Viertelfinale 2
@@ -879,7 +799,6 @@ DTEND;TZID=Europe/Berlin:20260715T030000
 LOCATION:SoFi Stadium, Los Angeles
 DESCRIPTION:FIFA WM 2026 - Viertelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-099@wm2026
 SUMMARY:⚽ Viertelfinale 3
@@ -888,7 +807,6 @@ DTEND;TZID=Europe/Berlin:20260715T230000
 LOCATION:MetLife Stadium, New York/New Jersey
 DESCRIPTION:FIFA WM 2026 - Viertelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-100@wm2026
 SUMMARY:⚽ Viertelfinale 4
@@ -897,7 +815,6 @@ DTEND;TZID=Europe/Berlin:20260716T030000
 LOCATION:AT&T Stadium, Dallas
 DESCRIPTION:FIFA WM 2026 - Viertelfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-101@wm2026
 SUMMARY:⚽ Halbfinale 1
@@ -906,7 +823,6 @@ DTEND;TZID=Europe/Berlin:20260714T230000
 LOCATION:MetLife Stadium, New York/New Jersey
 DESCRIPTION:FIFA WM 2026 - Halbfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-102@wm2026
 SUMMARY:⚽ Halbfinale 2
@@ -915,7 +831,6 @@ DTEND;TZID=Europe/Berlin:20260715T230000
 LOCATION:SoFi Stadium, Los Angeles
 DESCRIPTION:FIFA WM 2026 - Halbfinale
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-103@wm2026
 SUMMARY:🥉 Spiel um Platz 3
@@ -924,7 +839,6 @@ DTEND;TZID=Europe/Berlin:20260718T230000
 LOCATION:Hard Rock Stadium, Miami
 DESCRIPTION:FIFA WM 2026 - Spiel um Platz 3
 END:VEVENT
-
 BEGIN:VEVENT
 UID:wm2026-104@wm2026
 SUMMARY:🏆 WM-Finale 2026
@@ -933,8 +847,6 @@ DTEND;TZID=Europe/Berlin:20260719T230000
 LOCATION:MetLife Stadium, New York/New Jersey
 DESCRIPTION:FIFA WM 2026 - Finale
 END:VEVENT
-
-
 BEGIN:VEVENT
 UID:wm2026-044@wm2026
 SUMMARY:🇸🇩 Sudan vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England (Gruppe L - Vorrunde)
@@ -943,5 +855,4 @@ DTEND;TZID=Europe/Berlin:20260619T000000
 LOCATION:Gillette Stadium, Boston
 DESCRIPTION:FIFA WM 2026 - Gruppe L
 END:VEVENT
-
 END:VCALENDAR

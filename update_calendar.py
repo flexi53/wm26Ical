@@ -309,6 +309,27 @@ def fixture_to_event(f: dict) -> str:
     return "\r\n".join(lines)
 
 
+VTIMEZONE = "\r\n".join([
+    "BEGIN:VTIMEZONE",
+    "TZID:Europe/Berlin",
+    "BEGIN:STANDARD",
+    "DTSTART:19701025T030000",
+    "RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10",
+    "TZNAME:MEZ",
+    "TZOFFSETFROM:+0200",
+    "TZOFFSETTO:+0100",
+    "END:STANDARD",
+    "BEGIN:DAYLIGHT",
+    "DTSTART:19700329T020000",
+    "RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3",
+    "TZNAME:MESZ",
+    "TZOFFSETFROM:+0100",
+    "TZOFFSETTO:+0200",
+    "END:DAYLIGHT",
+    "END:VTIMEZONE",
+])
+
+
 def build_ics(fixtures: list) -> str:
     now = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     header = "\r\n".join([
@@ -322,8 +343,8 @@ def build_ics(fixtures: list) -> str:
         f"X-WR-CALDESC:Automatisch aktualisiert am {now} UTC",
     ])
     footer = "END:VCALENDAR"
-    events = "\r\n\r\n".join(fixture_to_event(f) for f in fixtures)
-    return header + "\r\n\r\n" + events + "\r\n\r\n" + footer + "\r\n"
+    events = "\r\n".join(fixture_to_event(f) for f in fixtures)
+    return header + "\r\n" + VTIMEZONE + "\r\n" + events + "\r\n" + footer + "\r\n"
 
 
 def main():
