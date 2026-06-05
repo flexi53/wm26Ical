@@ -334,8 +334,8 @@ def main():
     print("📅 Baue ICS-Datei...")
     ics_content = build_ics(fixtures)
 
-    with open(ICS_FILE, "w", encoding="utf-8") as fh:
-        fh.write(ics_content)
+    with open(ICS_FILE, "wb") as fh:
+        fh.write(ics_content.encode("utf-8"))
 
     print(f"✅ {ICS_FILE} gespeichert ({len(ics_content):,} Zeichen)")
 
