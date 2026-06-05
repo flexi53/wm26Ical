@@ -127,6 +127,34 @@ ROUND_DE = {
 }
 
 # ── UTC-Offset der Spielorte im Sommer 2026 ───────────────────────────────────
+# Vollständige Adressen der Spielstätten (für Apple Maps)
+VENUE_ADDRESS = {
+    "Estadio Azteca":          "Estadio Azteca, Ciudad de México, Mexiko",
+    "Estadio Akron":           "Estadio Akron, Guadalajara, Mexiko",
+    "Estadio BBVA":            "Estadio BBVA, Monterrey, Mexiko",
+    "BMO Field":               "BMO Field, Toronto, Kanada",
+    "BC Place":                "BC Place, Vancouver, Kanada",
+    "Levi's Stadium":          "Levi's Stadium, Santa Clara, USA",
+    "SoFi Stadium":            "SoFi Stadium, Inglewood, Los Angeles, USA",
+    "MetLife Stadium":         "MetLife Stadium, East Rutherford, New York, USA",
+    "Gillette Stadium":        "Gillette Stadium, Foxborough, Boston, USA",
+    "NRG Stadium":             "NRG Stadium, Houston, USA",
+    "AT&T Stadium":            "AT&T Stadium, Arlington, Dallas, USA",
+    "Lincoln Financial Field": "Lincoln Financial Field, Philadelphia, USA",
+    "Mercedes-Benz Stadium":   "Mercedes-Benz Stadium, Atlanta, USA",
+    "Lumen Field":             "Lumen Field, Seattle, USA",
+    "Hard Rock Stadium":       "Hard Rock Stadium, Miami Gardens, Miami, USA",
+    "Arrowhead Stadium":       "Arrowhead Stadium, Kansas City, USA",
+}
+
+
+def full_address(venue: str, city: str) -> str:
+    for key, addr in VENUE_ADDRESS.items():
+        if key.lower() in venue.lower():
+            return addr
+    return f"{venue}, {city}" if venue and city else venue or city
+
+
 CITY_OFFSET = {
     # USA Ostküste (EDT = UTC−4)
     "New York":        -4,
@@ -265,7 +293,7 @@ def fixture_to_event(f: dict) -> str:
     # ── DESCRIPTION ───────────────────────────────────────────────────────────
     runde    = round_de(round_)
     local_t  = local_time_str(dt_utc, city)
-    location = f"{venue}, {city}" if venue and city else venue or city
+    location = full_address(venue, city)
 
     desc_lines = [f"⚽ FIFA WM 2026 – {runde}"]
     if group:
