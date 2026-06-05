@@ -326,7 +326,7 @@ def fixture_to_event(f: dict) -> str:
         f"DTEND;TZID=Europe/Berlin:{dtend}",
         fold(f"LOCATION:{location}"),
         fold(f"DESCRIPTION:{description}"),
-        "URL:https://www.magentatv.de/sport",
+        "URL:https://web.magentatv.de",
         # 30-Minuten-Erinnerung vor Anstoß
         "BEGIN:VALARM",
         "TRIGGER:-PT30M",
