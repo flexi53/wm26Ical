@@ -132,6 +132,129 @@ VENUE_ADDRESS = {
     "Lumen Field":             "Lumen Field, Seattle, USA",
     "Hard Rock Stadium":       "Hard Rock Stadium, Miami Gardens, Miami, USA",
     "Arrowhead Stadium":       "Arrowhead Stadium, Kansas City, USA",
+    "Allegiant Stadium":       "Allegiant Stadium, Las Vegas, USA",
+}
+
+# ── Spielpaarung → Stadion (football-data.org Teamnamen) ─────────────────────
+MATCH_VENUES = {
+    # Gruppe A
+    ("Mexico", "South Africa"):            "Estadio Azteca",
+    ("South Korea", "Czechia"):            "Estadio Akron",
+    ("Mexico", "South Korea"):             "Estadio Akron",
+    ("Czechia", "South Africa"):           "Mercedes-Benz Stadium",
+    ("South Africa", "South Korea"):       "Estadio BBVA",
+    ("Czechia", "Mexico"):                 "Estadio Azteca",
+    # Gruppe B
+    ("Canada", "Bosnia-Herzegovina"):      "BMO Field",
+    ("Qatar", "Switzerland"):              "Levi's Stadium",
+    ("Switzerland", "Bosnia-Herzegovina"): "SoFi Stadium",
+    ("Canada", "Qatar"):                   "BC Place",
+    ("Switzerland", "Canada"):             "BC Place",
+    ("Bosnia-Herzegovina", "Qatar"):       "Lumen Field",
+    # Gruppe C
+    ("Brazil", "Morocco"):                 "MetLife Stadium",
+    ("Haiti", "Scotland"):                 "Gillette Stadium",
+    ("Scotland", "Morocco"):               "Gillette Stadium",
+    ("Brazil", "Haiti"):                   "Lincoln Financial Field",
+    ("Scotland", "Brazil"):                "Hard Rock Stadium",
+    ("Morocco", "Haiti"):                  "Mercedes-Benz Stadium",
+    # Gruppe D
+    ("United States", "Paraguay"):         "SoFi Stadium",
+    ("Australia", "Turkey"):               "BC Place",
+    ("Turkey", "Paraguay"):                "Levi's Stadium",
+    ("United States", "Australia"):        "Lumen Field",
+    ("Paraguay", "Australia"):             "Levi's Stadium",
+    ("Turkey", "United States"):           "SoFi Stadium",
+    # Gruppe E
+    ("Germany", "Curaçao"):                "NRG Stadium",
+    ("Ivory Coast", "Ecuador"):            "Lincoln Financial Field",
+    ("Germany", "Ivory Coast"):            "BMO Field",
+    ("Ecuador", "Curaçao"):               "Arrowhead Stadium",
+    ("Ecuador", "Germany"):               "MetLife Stadium",
+    ("Curaçao", "Ivory Coast"):           "Lincoln Financial Field",
+    # Gruppe F
+    ("Netherlands", "Japan"):             "AT&T Stadium",
+    ("Sweden", "Tunisia"):                "Estadio BBVA",
+    ("Netherlands", "Sweden"):            "NRG Stadium",
+    ("Tunisia", "Japan"):                 "Estadio BBVA",
+    ("Japan", "Sweden"):                  "AT&T Stadium",
+    ("Tunisia", "Netherlands"):           "Arrowhead Stadium",
+    # Gruppe G
+    ("Belgium", "Egypt"):                 "Lumen Field",
+    ("Iran", "New Zealand"):              "SoFi Stadium",
+    ("Belgium", "Iran"):                  "SoFi Stadium",
+    ("New Zealand", "Egypt"):             "BC Place",
+    ("New Zealand", "Belgium"):           "BC Place",
+    ("Egypt", "Iran"):                    "Lumen Field",
+    # Gruppe H
+    ("Spain", "Cape Verde Islands"):      "Mercedes-Benz Stadium",
+    ("Saudi Arabia", "Uruguay"):          "Hard Rock Stadium",
+    ("Uruguay", "Cape Verde Islands"):    "Hard Rock Stadium",
+    ("Spain", "Saudi Arabia"):            "Mercedes-Benz Stadium",
+    ("Uruguay", "Spain"):                 "Estadio Akron",
+    ("Cape Verde Islands", "Saudi Arabia"): "NRG Stadium",
+    # Gruppe I
+    ("France", "Senegal"):                "MetLife Stadium",
+    ("Iraq", "Norway"):                   "Gillette Stadium",
+    ("Norway", "Senegal"):                "MetLife Stadium",
+    ("France", "Iraq"):                   "Lincoln Financial Field",
+    ("Norway", "France"):                 "Gillette Stadium",
+    ("Senegal", "Iraq"):                  "BMO Field",
+    # Gruppe J
+    ("Argentina", "Algeria"):             "Arrowhead Stadium",
+    ("Austria", "Jordan"):                "Levi's Stadium",
+    ("Argentina", "Austria"):             "AT&T Stadium",
+    ("Jordan", "Algeria"):                "Levi's Stadium",
+    ("Austria", "Algeria"):               "Allegiant Stadium",
+    ("Jordan", "Argentina"):              "Levi's Stadium",
+    # Gruppe K
+    ("Portugal", "Zimbabwe"):             "Allegiant Stadium",
+    ("Colombia", "Slovenia"):             "Hard Rock Stadium",
+    ("Portugal", "Slovenia"):             "Allegiant Stadium",
+    ("Colombia", "Zimbabwe"):             "NRG Stadium",
+    ("Portugal", "Colombia"):             "Allegiant Stadium",
+    ("Zimbabwe", "Slovenia"):             "NRG Stadium",
+    # Gruppe L
+    ("England", "Croatia"):               "AT&T Stadium",
+    ("England", "Sudan"):                 "Hard Rock Stadium",
+    ("Croatia", "Syria"):                 "Gillette Stadium",
+    ("England", "Syria"):                 "AT&T Stadium",
+    ("Croatia", "Sudan"):                 "Gillette Stadium",
+    ("Sudan", "England"):                 "Gillette Stadium",
+}
+
+# ── KO-Spiele: Anstoßzeit (MESZ) → Stadion (für TBD-Teams) ──────────────────
+KO_VENUES = {
+    "20260628T210000": "MetLife Stadium",
+    "20260629T000000": "Hard Rock Stadium",
+    "20260629T210000": "AT&T Stadium",
+    "20260630T000000": "Lincoln Financial Field",
+    "20260630T210000": "Mercedes-Benz Stadium",
+    "20260701T000000": "SoFi Stadium",
+    "20260701T210000": "Levi's Stadium",
+    "20260702T000000": "Lumen Field",
+    "20260702T210000": "BC Place",
+    "20260703T000000": "BMO Field",
+    "20260703T210000": "Arrowhead Stadium",
+    "20260704T000000": "Allegiant Stadium",
+    "20260704T210000": "NRG Stadium",
+    "20260705T000000": "Estadio Azteca",
+    "20260705T210000": "Gillette Stadium",
+    "20260706T000000": "MetLife Stadium",
+    "20260707T210000": "Hard Rock Stadium",
+    "20260708T010000": "SoFi Stadium",
+    "20260708T210000": "AT&T Stadium",
+    "20260709T010000": "MetLife Stadium",
+    "20260709T210000": "Levi's Stadium",
+    "20260710T010000": "Lumen Field",
+    "20260710T210000": "BC Place",
+    "20260711T010000": "NRG Stadium",
+    "20260714T210000": "Mercedes-Benz Stadium",
+    "20260715T010000": "SoFi Stadium",
+    "20260715T210000": "MetLife Stadium",
+    "20260716T010000": "AT&T Stadium",
+    "20260718T210000": "Hard Rock Stadium",
+    "20260719T210000": "MetLife Stadium",
 }
 
 # ── UTC-Offset der Spielorte im Sommer 2026 ───────────────────────────────────
@@ -148,6 +271,7 @@ CITY_OFFSET = {
     "Arlington":       -5,
     "Kansas City":     -5,
     "Houston":         -5,
+    "Las Vegas":       -7,
     "Los Angeles":     -7,
     "Inglewood":       -7,
     "San Francisco":   -7,
@@ -202,17 +326,21 @@ def flag(name: str) -> str:
     return "⚽"
 
 
-def full_address(venue: str) -> str:
-    if not venue:
-        return ""
-    for key, addr in VENUE_ADDRESS.items():
-        if key.lower() in venue.lower():
-            return addr
-    return venue
+def get_venue(home: str, away: str, dtstart: str) -> str:
+    """Venue aus Paarung oder KO-Datum ermitteln."""
+    key = MATCH_VENUES.get((home, away))
+    if not key:
+        h, a = home.lower(), away.lower()
+        for (mh, ma), v in MATCH_VENUES.items():
+            if (mh.lower() in h or h in mh.lower()) and (ma.lower() in a or a in ma.lower()):
+                key = v
+                break
+    if not key:
+        key = KO_VENUES.get(dtstart)
+    return VENUE_ADDRESS.get(key, "") if key else ""
 
 
-def local_time_str(dt_utc: datetime, venue: str) -> str | None:
-    address = full_address(venue)
+def local_time_str(dt_utc: datetime, address: str) -> str | None:
     offset = None
     for city, off in CITY_OFFSET.items():
         if city.lower() in address.lower():
@@ -283,6 +411,7 @@ def match_to_event(m: dict) -> str:
     dtstart = dt_mesz.strftime("%Y%m%dT%H%M%S")
     dtend   = dt_end.strftime("%Y%m%dT%H%M%S")
     mesz_str = dt_mesz.strftime("%H:%M")
+    address = get_venue(home, away, dtstart)
 
     fh = flag(home)
     fa = flag(away)
@@ -310,8 +439,7 @@ def match_to_event(m: dict) -> str:
         if matchday:
             stage_de += f", Spieltag {matchday}"
 
-    address = full_address(venue)
-    local_t = local_time_str(dt_utc, venue)
+    local_t = local_time_str(dt_utc, address)
 
     desc_lines = [f"⚽ FIFA WM 2026 – {stage_de}", ""]
     if address:
@@ -338,7 +466,7 @@ def match_to_event(m: dict) -> str:
         fold(f"SUMMARY:{summary}"),
         f"DTSTART;TZID=Europe/Berlin:{dtstart}",
         f"DTEND;TZID=Europe/Berlin:{dtend}",
-        fold(f"LOCATION:{address or venue}"),
+        fold(f"LOCATION:{address}"),
         fold(f"DESCRIPTION:{description}"),
         "URL:https://web.magentatv.de",
         "BEGIN:VALARM",
