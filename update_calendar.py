@@ -254,10 +254,8 @@ def get_matches() -> list:
         params={"season": 2026},
         timeout=15,
     )
-    print(f"HTTP Status: {r.status_code}")
-    data = r.json()
-    print(f"API Antwort: {str(data)[:300]}")
     r.raise_for_status()
+    data = r.json()
     matches = data.get("matches", [])
     print(f"API: {len(matches)} Spiele geladen")
     return matches
