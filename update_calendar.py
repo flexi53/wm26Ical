@@ -194,6 +194,8 @@ VTIMEZONE = "\r\n".join([
 
 
 def flag(name: str) -> str:
+    if not name:
+        return "⚽"
     for key, emoji in FLAGS.items():
         if key.lower() in name.lower() or name.lower() in key.lower():
             return emoji
@@ -262,8 +264,8 @@ def get_matches() -> list:
 
 
 def match_to_event(m: dict) -> str:
-    home   = m["homeTeam"]["name"] or m["homeTeam"].get("shortName", "TBD")
-    away   = m["awayTeam"]["name"] or m["awayTeam"].get("shortName", "TBD")
+    home   = m["homeTeam"]["name"] or m["homeTeam"].get("shortName") or "TBD"
+    away   = m["awayTeam"]["name"] or m["awayTeam"].get("shortName") or "TBD"
     status = m["status"]  # SCHEDULED, TIMED, IN_PLAY, PAUSED, FINISHED, POSTPONED, CANCELLED
     stage  = m.get("stage", "")
     group  = m.get("group") or ""
