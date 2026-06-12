@@ -381,6 +381,10 @@ def main():
     fixtures = get_fixtures()
     print(f"✅ {len(fixtures)} Spiele geladen")
 
+    if not fixtures:
+        print("⚠️  Keine Spiele von der API – Datei wird nicht überschrieben.")
+        return
+
     print("📅 Baue ICS-Datei...")
     ics_content = build_ics(fixtures)
 

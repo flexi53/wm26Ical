@@ -9,6 +9,9 @@ on:
     - cron: "0 15,16,17,18,19,20,21,22 11-19 6,7 *"  # stündlich während Gruppenphase
   workflow_dispatch:  # Manuell auslösen per Knopfdruck auf GitHub
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -16,6 +19,8 @@ jobs:
     steps:
       - name: 📥 Repo auschecken
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🐍 Python einrichten
         uses: actions/setup-python@v5
