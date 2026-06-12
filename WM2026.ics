@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260612T210214Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260612T211923Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -57,13 +57,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537333@wm2026
-SUMMARY:🔴 LIVE 🇨🇦 Canada 1:1 🇧🇦 Bosnia-Herzegovina
+SUMMARY:🇨🇦 Canada 1:1 🇧🇦 Bosnia-Herzegovina
 DTSTART;TZID=Europe/Berlin:20260612T210000
 DTEND;TZID=Europe/Berlin:20260612T230000
 LOCATION:BMO Field, Toronto, Kanada
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe B\, Spieltag 1\n\n🏟
  ️  BMO Field\, Toronto\, Kanada\n\n⏰ Anstoß: 21:00 Uhr (MESZ) / 15:00
-  Uhr (UTC−4)\n\n🔴 Spiel läuft
+  Uhr (UTC−4)\n\n✅ Endstand: 1:1
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
