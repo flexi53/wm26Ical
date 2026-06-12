@@ -32,7 +32,7 @@ jobs:
 
       - name: 🔄 Kalender aktualisieren
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
         run: python update_calendar.py
 
       - name: 💾 Änderungen committen & pushen
