@@ -249,10 +249,13 @@ def get_matches() -> list:
     r = requests.get(
         f"{BASE_URL}/competitions/WC/matches",
         headers={"X-Auth-Token": API_KEY},
+        params={"season": 2026},
         timeout=15,
     )
-    r.raise_for_status()
+    print(f"HTTP Status: {r.status_code}")
     data = r.json()
+    print(f"API Antwort: {str(data)[:300]}")
+    r.raise_for_status()
     matches = data.get("matches", [])
     print(f"API: {len(matches)} Spiele geladen")
     return matches
