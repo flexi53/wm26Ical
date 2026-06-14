@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260613T220828Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260614T084005Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -105,13 +105,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537339@wm2026
-SUMMARY:🔴 LIVE 🇧🇷 Brazil 0:0 🇲🇦 Morocco
+SUMMARY:🇧🇷 Brazil 1:1 🇲🇦 Morocco
 DTSTART;TZID=Europe/Berlin:20260614T000000
 DTEND;TZID=Europe/Berlin:20260614T020000
 LOCATION:MetLife Stadium, East Rutherford, New York, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe C\, Spieltag 1\n\n🏟
  ️  MetLife Stadium\, East Rutherford\, New York\, USA\n\n⏰ Anstoß: 00
- :00 Uhr (MESZ) / 18:00 Uhr (UTC−4)\n\n🔴 Spiel läuft
+ :00 Uhr (MESZ) / 18:00 Uhr (UTC−4)\n\n✅ Endstand: 1:1
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -121,13 +121,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537340@wm2026
-SUMMARY:🇭🇹 Haiti vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland
+SUMMARY:🇭🇹 Haiti 0:1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland
 DTSTART;TZID=Europe/Berlin:20260614T030000
 DTEND;TZID=Europe/Berlin:20260614T050000
 LOCATION:Gillette Stadium, Foxborough, Boston, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe C\, Spieltag 1\n\n🏟
  ️  Gillette Stadium\, Foxborough\, Boston\, USA\n\n⏰ Anstoß: 03:00 Uh
- r (MESZ) / 21:00 Uhr (UTC−4)
+ r (MESZ) / 21:00 Uhr (UTC−4)\n\n✅ Endstand: 0:1
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -137,13 +137,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537346@wm2026
-SUMMARY:🇦🇺 Australia vs 🇹🇷 Turkey
+SUMMARY:🇦🇺 Australia 2:0 🇹🇷 Turkey
 DTSTART;TZID=Europe/Berlin:20260614T060000
 DTEND;TZID=Europe/Berlin:20260614T080000
 LOCATION:BC Place, Vancouver, Kanada
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe D\, Spieltag 1\n\n🏟
  ️  BC Place\, Vancouver\, Kanada\n\n⏰ Anstoß: 06:00 Uhr (MESZ) / 21:0
- 0 Uhr (UTC−7)
+ 0 Uhr (UTC−7)\n\n✅ Endstand: 2:0
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
