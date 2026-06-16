@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260615T222228Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260616T100609Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -249,13 +249,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537370@wm2026
-SUMMARY:🔴 LIVE 🇸🇦 Saudi Arabia 0:0 🇺🇾 Uruguay
+SUMMARY:🇸🇦 Saudi Arabia 1:1 🇺🇾 Uruguay
 DTSTART;TZID=Europe/Berlin:20260616T000000
 DTEND;TZID=Europe/Berlin:20260616T020000
 LOCATION:Hard Rock Stadium, Miami Gardens, Miami, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe H\, Spieltag 1\n\n🏟
  ️  Hard Rock Stadium\, Miami Gardens\, Miami\, USA\n\n⏰ Anstoß: 00:00
-  Uhr (MESZ) / 18:00 Uhr (UTC−4)\n\n🔴 Spiel läuft
+  Uhr (MESZ) / 18:00 Uhr (UTC−4)\n\n✅ Endstand: 1:1
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -265,13 +265,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537364@wm2026
-SUMMARY:🇮🇷 Iran vs 🇳🇿 New Zealand
+SUMMARY:🇮🇷 Iran 2:2 🇳🇿 New Zealand
 DTSTART;TZID=Europe/Berlin:20260616T030000
 DTEND;TZID=Europe/Berlin:20260616T050000
 LOCATION:SoFi Stadium, Inglewood, Los Angeles, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe G\, Spieltag 1\n\n🏟
  ️  SoFi Stadium\, Inglewood\, Los Angeles\, USA\n\n⏰ Anstoß: 03:00 Uh
- r (MESZ) / 18:00 Uhr (UTC−7)
+ r (MESZ) / 18:00 Uhr (UTC−7)\n\n✅ Endstand: 2:2
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
