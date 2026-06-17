@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260616T232605Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260617T092847Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -297,13 +297,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537392@wm2026
-SUMMARY:🔴 LIVE 🇮🇶 Iraq 1:2 🇳🇴 Norway
+SUMMARY:🇮🇶 Iraq 1:4 🇳🇴 Norway
 DTSTART;TZID=Europe/Berlin:20260617T000000
 DTEND;TZID=Europe/Berlin:20260617T020000
 LOCATION:Gillette Stadium, Foxborough, Boston, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe I\, Spieltag 1\n\n🏟
  ️  Gillette Stadium\, Foxborough\, Boston\, USA\n\n⏰ Anstoß: 00:00 Uh
- r (MESZ) / 18:00 Uhr (UTC−4)\n\n🔴 Spiel läuft
+ r (MESZ) / 18:00 Uhr (UTC−4)\n\n✅ Endstand: 1:4
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -313,13 +313,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537397@wm2026
-SUMMARY:🇦🇷 Argentina vs 🇩🇿 Algeria
+SUMMARY:🇦🇷 Argentina 3:0 🇩🇿 Algeria
 DTSTART;TZID=Europe/Berlin:20260617T030000
 DTEND;TZID=Europe/Berlin:20260617T050000
 LOCATION:Arrowhead Stadium, Kansas City, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe J\, Spieltag 1\n\n🏟
  ️  Arrowhead Stadium\, Kansas City\, USA\n\n⏰ Anstoß: 03:00 Uhr (MESZ
- ) / 20:00 Uhr (UTC−5)
+ ) / 20:00 Uhr (UTC−5)\n\n✅ Endstand: 3:0
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -329,13 +329,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537398@wm2026
-SUMMARY:🇦🇹 Austria vs 🇯🇴 Jordan
+SUMMARY:🇦🇹 Austria 3:1 🇯🇴 Jordan
 DTSTART;TZID=Europe/Berlin:20260617T060000
 DTEND;TZID=Europe/Berlin:20260617T080000
 LOCATION:Levi's Stadium, Santa Clara, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe J\, Spieltag 1\n\n🏟
  ️  Levi's Stadium\, Santa Clara\, USA\n\n⏰ Anstoß: 06:00 Uhr (MESZ) /
-  21:00 Uhr (UTC−7)
+  21:00 Uhr (UTC−7)\n\n✅ Endstand: 3:1
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
