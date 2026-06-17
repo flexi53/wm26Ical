@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260617T175035Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260617T201938Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -345,12 +345,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537403@wm2026
-SUMMARY:🔴 LIVE 🇵🇹 Portugal 1:0 🇨🇩 Congo DR
+SUMMARY:🇵🇹 Portugal 1:1 🇨🇩 Congo DR
 DTSTART;TZID=Europe/Berlin:20260617T190000
 DTEND;TZID=Europe/Berlin:20260617T210000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe K\, Spieltag 1\n\n\n
- ⏰ Anstoß: 19:00 Uhr (MESZ)\n\n🔴 Spiel läuft
+ ⏰ Anstoß: 19:00 Uhr (MESZ)\n\n✅ Endstand: 1:1
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -360,13 +360,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537409@wm2026
-SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia
+SUMMARY:🔴 LIVE 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 1:0 🇭🇷 Croatia
 DTSTART;TZID=Europe/Berlin:20260617T220000
 DTEND;TZID=Europe/Berlin:20260618T000000
 LOCATION:AT&T Stadium, Arlington, Dallas, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe L\, Spieltag 1\n\n🏟
  ️  AT&T Stadium\, Arlington\, Dallas\, USA\n\n⏰ Anstoß: 22:00 Uhr (ME
- SZ) / 15:00 Uhr (UTC−5)
+ SZ) / 15:00 Uhr (UTC−5)\n\n🔴 Spiel läuft
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
