@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260617T224705Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260618T091240Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -376,12 +376,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537410@wm2026
-SUMMARY:⚽ Ghana vs 🇵🇦 Panama
+SUMMARY:🔴 LIVE ⚽ Ghana 1:0 🇵🇦 Panama
 DTSTART;TZID=Europe/Berlin:20260618T010000
 DTEND;TZID=Europe/Berlin:20260618T030000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe L\, Spieltag 1\n\n\n
- ⏰ Anstoß: 01:00 Uhr (MESZ)
+ ⏰ Anstoß: 01:00 Uhr (MESZ)\n\n🔴 Spiel läuft
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -391,12 +391,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537404@wm2026
-SUMMARY:🇺🇿 Uzbekistan vs 🇨🇴 Colombia
+SUMMARY:🇺🇿 Uzbekistan 1:3 🇨🇴 Colombia
 DTSTART;TZID=Europe/Berlin:20260618T040000
 DTEND;TZID=Europe/Berlin:20260618T060000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe K\, Spieltag 1\n\n\n
- ⏰ Anstoß: 04:00 Uhr (MESZ)
+ ⏰ Anstoß: 04:00 Uhr (MESZ)\n\n✅ Endstand: 1:3
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
