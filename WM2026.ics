@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260618T215945Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260618T234800Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -438,13 +438,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537336@wm2026
-SUMMARY:🇨🇦 Canada vs 🇶🇦 Qatar
+SUMMARY:🔴 LIVE 🇨🇦 Canada 5:0 🇶🇦 Qatar
 DTSTART;TZID=Europe/Berlin:20260619T000000
 DTEND;TZID=Europe/Berlin:20260619T020000
 LOCATION:BC Place, Vancouver, Kanada
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe B\, Spieltag 2\n\n🏟
  ️  BC Place\, Vancouver\, Kanada\n\n⏰ Anstoß: 00:00 Uhr (MESZ) / 15:0
- 0 Uhr (UTC−7)
+ 0 Uhr (UTC−7)\n\n🔴 Spiel läuft
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
