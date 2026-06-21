@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260620T210728Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260621T085702Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -550,13 +550,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537353@wm2026
-SUMMARY:🔴 LIVE 🇩🇪 Germany 0:1 🇨🇮 Ivory Coast
+SUMMARY:🇩🇪 Germany 2:1 🇨🇮 Ivory Coast
 DTSTART;TZID=Europe/Berlin:20260620T220000
 DTEND;TZID=Europe/Berlin:20260621T000000
 LOCATION:BMO Field, Toronto, Kanada
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe E\, Spieltag 2\n\n🏟
  ️  BMO Field\, Toronto\, Kanada\n\n⏰ Anstoß: 22:00 Uhr (MESZ) / 16:00
-  Uhr (UTC−4)\n\n🔴 Spiel läuft
+  Uhr (UTC−4)\n\n✅ Endstand: 2:1
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -566,13 +566,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537354@wm2026
-SUMMARY:🇪🇨 Ecuador vs 🇨🇼 Curaçao
+SUMMARY:🇪🇨 Ecuador 0:0 🇨🇼 Curaçao
 DTSTART;TZID=Europe/Berlin:20260621T020000
 DTEND;TZID=Europe/Berlin:20260621T040000
 LOCATION:Arrowhead Stadium, Kansas City, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe E\, Spieltag 2\n\n🏟
  ️  Arrowhead Stadium\, Kansas City\, USA\n\n⏰ Anstoß: 02:00 Uhr (MESZ
- ) / 19:00 Uhr (UTC−5)
+ ) / 19:00 Uhr (UTC−5)\n\n✅ Endstand: 0:0
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -582,13 +582,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537360@wm2026
-SUMMARY:🇹🇳 Tunisia vs 🇯🇵 Japan
+SUMMARY:🇹🇳 Tunisia 0:4 🇯🇵 Japan
 DTSTART;TZID=Europe/Berlin:20260621T060000
 DTEND;TZID=Europe/Berlin:20260621T080000
 LOCATION:Estadio BBVA, Monterrey, Mexiko
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe F\, Spieltag 2\n\n🏟
  ️  Estadio BBVA\, Monterrey\, Mexiko\n\n⏰ Anstoß: 06:00 Uhr (MESZ) / 
- 23:00 Uhr (UTC−5)
+ 23:00 Uhr (UTC−5)\n\n✅ Endstand: 0:4
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
