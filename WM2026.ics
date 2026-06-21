@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260621T085702Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260621T210637Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -598,13 +598,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537371@wm2026
-SUMMARY:🇪🇸 Spain vs 🇸🇦 Saudi Arabia
+SUMMARY:🇪🇸 Spain 4:0 🇸🇦 Saudi Arabia
 DTSTART;TZID=Europe/Berlin:20260621T180000
 DTEND;TZID=Europe/Berlin:20260621T200000
 LOCATION:Mercedes-Benz Stadium, Atlanta, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe H\, Spieltag 2\n\n🏟
  ️  Mercedes-Benz Stadium\, Atlanta\, USA\n\n⏰ Anstoß: 18:00 Uhr (MESZ
- ) / 12:00 Uhr (UTC−4)
+ ) / 12:00 Uhr (UTC−4)\n\n✅ Endstand: 4:0
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -614,13 +614,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537365@wm2026
-SUMMARY:🇧🇪 Belgium vs 🇮🇷 Iran
+SUMMARY:🇧🇪 Belgium 0:0 🇮🇷 Iran
 DTSTART;TZID=Europe/Berlin:20260621T210000
 DTEND;TZID=Europe/Berlin:20260621T230000
 LOCATION:SoFi Stadium, Inglewood, Los Angeles, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe G\, Spieltag 2\n\n🏟
  ️  SoFi Stadium\, Inglewood\, Los Angeles\, USA\n\n⏰ Anstoß: 21:00 Uh
- r (MESZ) / 12:00 Uhr (UTC−7)
+ r (MESZ) / 12:00 Uhr (UTC−7)\n\n✅ Endstand: 0:0
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
