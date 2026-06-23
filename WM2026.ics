@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260623T022637Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260623T103604Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -710,13 +710,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537400@wm2026
-SUMMARY:🇯🇴 Jordan vs 🇩🇿 Algeria
+SUMMARY:🇯🇴 Jordan 1:2 🇩🇿 Algeria
 DTSTART;TZID=Europe/Berlin:20260623T050000
 DTEND;TZID=Europe/Berlin:20260623T070000
 LOCATION:Levi's Stadium, Santa Clara, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe J\, Spieltag 2\n\n🏟
  ️  Levi's Stadium\, Santa Clara\, USA\n\n⏰ Anstoß: 05:00 Uhr (MESZ) /
-  20:00 Uhr (UTC−7)
+  20:00 Uhr (UTC−7)\n\n✅ Endstand: 1:2
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
