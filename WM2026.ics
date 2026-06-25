@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260625T215848Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260625T232515Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -882,13 +882,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537355@wm2026
-SUMMARY:🔴 LIVE 🇪🇨 Ecuador 2:1 🇩🇪 Germany
+SUMMARY:🇪🇨 Ecuador 2:1 🇩🇪 Germany
 DTSTART;TZID=Europe/Berlin:20260625T220000
 DTEND;TZID=Europe/Berlin:20260626T000000
 LOCATION:MetLife Stadium, East Rutherford, New York, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe E\, Spieltag 3\n\n🏟
  ️  MetLife Stadium\, East Rutherford\, New York\, USA\n\n⏰ Anstoß: 22
- :00 Uhr (MESZ) / 16:00 Uhr (UTC−4)\n\n🔴 Spiel läuft
+ :00 Uhr (MESZ) / 16:00 Uhr (UTC−4)\n\n✅ Endstand: 2:1
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -898,13 +898,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537356@wm2026
-SUMMARY:🔴 LIVE 🇨🇼 Curaçao 0:2 🇨🇮 Ivory Coast
+SUMMARY:🇨🇼 Curaçao 0:2 🇨🇮 Ivory Coast
 DTSTART;TZID=Europe/Berlin:20260625T220000
 DTEND;TZID=Europe/Berlin:20260626T000000
 LOCATION:Lincoln Financial Field, Philadelphia, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe E\, Spieltag 3\n\n🏟
  ️  Lincoln Financial Field\, Philadelphia\, USA\n\n⏰ Anstoß: 22:00 Uh
- r (MESZ) / 16:00 Uhr (UTC−4)\n\n🔴 Spiel läuft
+ r (MESZ) / 16:00 Uhr (UTC−4)\n\n✅ Endstand: 0:2
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -914,13 +914,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537361@wm2026
-SUMMARY:🇹🇳 Tunisia vs 🇳🇱 Netherlands
+SUMMARY:🔴 LIVE 🇹🇳 Tunisia 0:2 🇳🇱 Netherlands
 DTSTART;TZID=Europe/Berlin:20260626T010000
 DTEND;TZID=Europe/Berlin:20260626T030000
 LOCATION:Arrowhead Stadium, Kansas City, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe F\, Spieltag 3\n\n🏟
  ️  Arrowhead Stadium\, Kansas City\, USA\n\n⏰ Anstoß: 01:00 Uhr (MESZ
- ) / 18:00 Uhr (UTC−5)
+ ) / 18:00 Uhr (UTC−5)\n\n🔴 Spiel läuft
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -930,13 +930,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537362@wm2026
-SUMMARY:🇯🇵 Japan vs 🇸🇪 Sweden
+SUMMARY:🔴 LIVE 🇯🇵 Japan 0:0 🇸🇪 Sweden
 DTSTART;TZID=Europe/Berlin:20260626T010000
 DTEND;TZID=Europe/Berlin:20260626T030000
 LOCATION:AT&T Stadium, Arlington, Dallas, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe F\, Spieltag 3\n\n🏟
  ️  AT&T Stadium\, Arlington\, Dallas\, USA\n\n⏰ Anstoß: 01:00 Uhr (ME
- SZ) / 18:00 Uhr (UTC−5)
+ SZ) / 18:00 Uhr (UTC−5)\n\n🔴 Spiel läuft
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
