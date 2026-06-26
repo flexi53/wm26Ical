@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260626T013710Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260626T023154Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -946,13 +946,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537349@wm2026
-SUMMARY:🇹🇷 Turkey vs 🇺🇸 United States
+SUMMARY:🔴 LIVE 🇹🇷 Turkey 1:1 🇺🇸 United States
 DTSTART;TZID=Europe/Berlin:20260626T040000
 DTEND;TZID=Europe/Berlin:20260626T060000
 LOCATION:SoFi Stadium, Inglewood, Los Angeles, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe D\, Spieltag 3\n\n🏟
  ️  SoFi Stadium\, Inglewood\, Los Angeles\, USA\n\n⏰ Anstoß: 04:00 Uh
- r (MESZ) / 19:00 Uhr (UTC−7)
+ r (MESZ) / 19:00 Uhr (UTC−7)\n\n🔴 Spiel läuft
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -962,13 +962,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537350@wm2026
-SUMMARY:🇵🇾 Paraguay vs 🇦🇺 Australia
+SUMMARY:🔴 LIVE 🇵🇾 Paraguay 0:0 🇦🇺 Australia
 DTSTART;TZID=Europe/Berlin:20260626T040000
 DTEND;TZID=Europe/Berlin:20260626T060000
 LOCATION:Levi's Stadium, Santa Clara, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe D\, Spieltag 3\n\n🏟
  ️  Levi's Stadium\, Santa Clara\, USA\n\n⏰ Anstoß: 04:00 Uhr (MESZ) /
-  19:00 Uhr (UTC−7)
+  19:00 Uhr (UTC−7)\n\n🔴 Spiel läuft
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -1196,7 +1196,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537415@wm2026
-SUMMARY:🇩🇪 Germany vs ⚽ TBD
+SUMMARY:⚽ TBD vs ⚽ TBD
 DTSTART;TZID=Europe/Berlin:20260629T223000
 DTEND;TZID=Europe/Berlin:20260630T003000
 LOCATION:
@@ -1256,7 +1256,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537425@wm2026
-SUMMARY:🇲🇽 Mexico vs ⚽ TBD
+SUMMARY:⚽ TBD vs ⚽ TBD
 DTSTART;TZID=Europe/Berlin:20260701T030000
 DTEND;TZID=Europe/Berlin:20260701T050000
 LOCATION:
@@ -1301,7 +1301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537421@wm2026
-SUMMARY:🇺🇸 United States vs ⚽ TBD
+SUMMARY:⚽ TBD vs ⚽ TBD
 DTSTART;TZID=Europe/Berlin:20260702T020000
 DTEND;TZID=Europe/Berlin:20260702T040000
 LOCATION:
@@ -1377,7 +1377,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537427@wm2026
-SUMMARY:🇦🇷 Argentina vs ⚽ TBD
+SUMMARY:⚽ TBD vs ⚽ TBD
 DTSTART;TZID=Europe/Berlin:20260704T000000
 DTEND;TZID=Europe/Berlin:20260704T020000
 LOCATION:Allegiant Stadium, Las Vegas, USA
