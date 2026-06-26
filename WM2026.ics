@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260626T210555Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260626T222207Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -994,13 +994,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537396@wm2026
-SUMMARY:🔴 LIVE 🇸🇳 Senegal 5:0 🇮🇶 Iraq
+SUMMARY:🇸🇳 Senegal 5:0 🇮🇶 Iraq
 DTSTART;TZID=Europe/Berlin:20260626T210000
 DTEND;TZID=Europe/Berlin:20260626T230000
 LOCATION:BMO Field, Toronto, Kanada
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe I\, Spieltag 3\n\n🏟
  ️  BMO Field\, Toronto\, Kanada\n\n⏰ Anstoß: 21:00 Uhr (MESZ) / 15:00
-  Uhr (UTC−4)\n\n🔴 Spiel läuft
+  Uhr (UTC−4)\n\n✅ Endstand: 5:0
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
