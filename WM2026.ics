@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260627T013439Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260627T022532Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1010,13 +1010,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537373@wm2026
-SUMMARY:🔴 LIVE 🇺🇾 Uruguay 0:1 🇪🇸 Spain
+SUMMARY:🇺🇾 Uruguay 0:1 🇪🇸 Spain
 DTSTART;TZID=Europe/Berlin:20260627T020000
 DTEND;TZID=Europe/Berlin:20260627T040000
 LOCATION:Estadio Akron, Guadalajara, Mexiko
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe H\, Spieltag 3\n\n🏟
  ️  Estadio Akron\, Guadalajara\, Mexiko\n\n⏰ Anstoß: 02:00 Uhr (MESZ)
-  / 19:00 Uhr (UTC−5)\n\n🔴 Spiel läuft
+  / 19:00 Uhr (UTC−5)\n\n✅ Endstand: 0:1
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -1026,13 +1026,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537374@wm2026
-SUMMARY:🔴 LIVE 🇨🇻 Cape Verde Islands 0:0 🇸🇦 Saudi Arabia
+SUMMARY:🇨🇻 Cape Verde Islands 0:0 🇸🇦 Saudi Arabia
 DTSTART;TZID=Europe/Berlin:20260627T020000
 DTEND;TZID=Europe/Berlin:20260627T040000
 LOCATION:NRG Stadium, Houston, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Vorrunde – Gruppe H\, Spieltag 3\n\n🏟
  ️  NRG Stadium\, Houston\, USA\n\n⏰ Anstoß: 02:00 Uhr (MESZ) / 19:00 
- Uhr (UTC−5)\n\n🔴 Spiel läuft
+ Uhr (UTC−5)\n\n✅ Endstand: 0:0
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
