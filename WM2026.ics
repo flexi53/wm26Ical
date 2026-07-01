@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260701T175835Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260701T200629Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1271,13 +1271,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537426@wm2026
-SUMMARY:🔴 LIVE 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 2:1 🇨🇩 Congo D
- R
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 2:1 🇨🇩 Congo DR
 DTSTART;TZID=Europe/Berlin:20260701T180000
 DTEND;TZID=Europe/Berlin:20260701T200000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Runde der letzten 32\n\n\n⏰ Anstoß: 18:
- 00 Uhr (MESZ)\n\n🔴 Spiel läuft
+ 00 Uhr (MESZ)\n\n✅ Endstand: 2:1
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -1287,12 +1286,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537422@wm2026
-SUMMARY:🇧🇪 Belgium vs 🇸🇳 Senegal
+SUMMARY:🔴 LIVE 🇧🇪 Belgium 0:0 🇸🇳 Senegal
 DTSTART;TZID=Europe/Berlin:20260701T220000
 DTEND;TZID=Europe/Berlin:20260702T000000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Runde der letzten 32\n\n\n⏰ Anstoß: 22:
- 00 Uhr (MESZ)
+ 00 Uhr (MESZ)\n\n🔴 Spiel läuft
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
