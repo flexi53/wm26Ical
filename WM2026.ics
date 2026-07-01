@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260701T033817Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260701T041127Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1226,12 +1226,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537424@wm2026
-SUMMARY:🇨🇮 Ivory Coast vs 🇳🇴 Norway
+SUMMARY:🇨🇮 Ivory Coast 1:2 🇳🇴 Norway
 DTSTART;TZID=Europe/Berlin:20260630T190000
 DTEND;TZID=Europe/Berlin:20260630T210000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Runde der letzten 32\n\n\n⏰ Anstoß: 19:
- 00 Uhr (MESZ)
+ 00 Uhr (MESZ)\n\n✅ Endstand: 1:2
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -1256,12 +1256,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537425@wm2026
-SUMMARY:🔴 LIVE 🇲🇽 Mexico 2:0 🇪🇨 Ecuador
+SUMMARY:🇲🇽 Mexico 2:0 🇪🇨 Ecuador
 DTSTART;TZID=Europe/Berlin:20260701T030000
 DTEND;TZID=Europe/Berlin:20260701T050000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Runde der letzten 32\n\n\n⏰ Anstoß: 03:
- 00 Uhr (MESZ)\n\n🔴 Spiel läuft
+ 00 Uhr (MESZ)\n\n✅ Endstand: 2:0
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
