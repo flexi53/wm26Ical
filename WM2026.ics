@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260701T225634Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260702T001451Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1301,12 +1301,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537421@wm2026
-SUMMARY:🇺🇸 United States vs 🇧🇦 Bosnia-Herzegovina
+SUMMARY:🔴 LIVE 🇺🇸 United States 0:0 🇧🇦 Bosnia-Herzegovina
 DTSTART;TZID=Europe/Berlin:20260702T020000
 DTEND;TZID=Europe/Berlin:20260702T040000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Runde der letzten 32\n\n\n⏰ Anstoß: 02:
- 00 Uhr (MESZ)
+ 00 Uhr (MESZ)\n\n🔴 Spiel läuft
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
