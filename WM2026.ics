@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260702T190746Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260702T203658Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1316,13 +1316,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537420@wm2026
-SUMMARY:🇪🇸 Spain vs 🇦🇹 Austria
+SUMMARY:🔴 LIVE 🇪🇸 Spain 2:0 🇦🇹 Austria
 DTSTART;TZID=Europe/Berlin:20260702T210000
 DTEND;TZID=Europe/Berlin:20260702T230000
 LOCATION:BC Place, Vancouver, Kanada
 DESCRIPTION:⚽ FIFA WM 2026 – Runde der letzten 32\n\n🏟️  BC Place\
  , Vancouver\, Kanada\n\n⏰ Anstoß: 21:00 Uhr (MESZ) / 12:00 Uhr (UTC−7
- )
+ )\n\n🔴 Spiel läuft
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
