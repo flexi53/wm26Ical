@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260703T033352Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260703T095541Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1347,12 +1347,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537429@wm2026
-SUMMARY:🔴 LIVE 🇨🇭 Switzerland 1:0 🇩🇿 Algeria
+SUMMARY:🇨🇭 Switzerland 2:0 🇩🇿 Algeria
 DTSTART;TZID=Europe/Berlin:20260703T050000
 DTEND;TZID=Europe/Berlin:20260703T070000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Runde der letzten 32\n\n\n⏰ Anstoß: 05:
- 00 Uhr (MESZ)\n\n🔴 Spiel läuft
+ 00 Uhr (MESZ)\n\n✅ Endstand: 2:0
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
