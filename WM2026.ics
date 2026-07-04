@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260703T233906Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260704T011655Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1377,13 +1377,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537427@wm2026
-SUMMARY:🔴 LIVE 🇦🇷 Argentina 1:1 🇨🇻 Cape Verde Islands
+SUMMARY:🇦🇷 Argentina 3:2 🇨🇻 Cape Verde Islands n.V.
 DTSTART;TZID=Europe/Berlin:20260704T000000
 DTEND;TZID=Europe/Berlin:20260704T020000
 LOCATION:Allegiant Stadium, Las Vegas, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Runde der letzten 32\n\n🏟️  Allegiant
   Stadium\, Las Vegas\, USA\n\n⏰ Anstoß: 00:00 Uhr (MESZ) / 15:00 Uhr (U
- TC−7)\n\n🔴 Spiel läuft
+ TC−7)\n\n✅ Endstand: 3:2 (n.V.)
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
