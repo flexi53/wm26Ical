@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260711T210918Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260711T220822Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1453,12 +1453,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537378@wm2026
-SUMMARY:🇲🇽 Mexico 2:3 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
+SUMMARY:🇲🇽 Mexico vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
 DTSTART;TZID=Europe/Berlin:20260706T030000
 DTEND;TZID=Europe/Berlin:20260706T050000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Achtelfinale\n\n\n⏰ Anstoß: 03:00 Uhr (
- MESZ)\n\n✅ Endstand: 2:3
+ MESZ)
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -1559,7 +1559,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537385@wm2026
-SUMMARY:🔴 LIVE 🇳🇴 Norway 0:0 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
+SUMMARY:🔴 LIVE 🇳🇴 Norway 1:1 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
 DTSTART;TZID=Europe/Berlin:20260711T230000
 DTEND;TZID=Europe/Berlin:20260712T010000
 LOCATION:
