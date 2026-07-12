@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260712T031609Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260712T090202Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1453,12 +1453,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537378@wm2026
-SUMMARY:🇲🇽 Mexico vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
+SUMMARY:🇲🇽 Mexico 2:3 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
 DTSTART;TZID=Europe/Berlin:20260706T030000
 DTEND;TZID=Europe/Berlin:20260706T050000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Achtelfinale\n\n\n⏰ Anstoß: 03:00 Uhr (
- MESZ)
+ MESZ)\n\n✅ Endstand: 2:3
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -1574,12 +1574,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537386@wm2026
-SUMMARY:🔴 LIVE 🇦🇷 Argentina 1:1 🇨🇭 Switzerland
+SUMMARY:🇦🇷 Argentina 3:1 🇨🇭 Switzerland n.V.
 DTSTART;TZID=Europe/Berlin:20260712T030000
 DTEND;TZID=Europe/Berlin:20260712T050000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Viertelfinale\n\n\n⏰ Anstoß: 03:00 Uhr 
- (MESZ)\n\n🔴 Spiel läuft
+ (MESZ)\n\n✅ Endstand: 3:1 (n.V.)
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
@@ -1604,7 +1604,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537388@wm2026
-SUMMARY:⚽ TBD vs ⚽ TBD
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇦🇷 Argentina
 DTSTART;TZID=Europe/Berlin:20260715T210000
 DTEND;TZID=Europe/Berlin:20260715T230000
 LOCATION:MetLife Stadium, East Rutherford, New York, USA
