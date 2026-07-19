@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260719T210952Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260719T220916Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1636,13 +1636,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537390@wm2026
-SUMMARY:🔴 LIVE 🇪🇸 Spain 0:0 🇦🇷 Argentina
+SUMMARY:🇪🇸 Spain 1:0 🇦🇷 Argentina n.V.
 DTSTART;TZID=Europe/Berlin:20260719T210000
 DTEND;TZID=Europe/Berlin:20260719T230000
 LOCATION:MetLife Stadium, East Rutherford, New York, USA
 DESCRIPTION:⚽ FIFA WM 2026 – Finale\n\n🏟️  MetLife Stadium\, East 
  Rutherford\, New York\, USA\n\n⏰ Anstoß: 21:00 Uhr (MESZ) / 15:00 Uhr (
- UTC−4)\n\n🔴 Spiel läuft
+ UTC−4)\n\n✅ Endstand: 1:0 (n.V.)
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
