@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:⚽ WM 2026 Spielplan
 X-WR-TIMEZONE:Europe/Berlin
-X-WR-CALDESC:Automatisch aktualisiert am 20260718T230643Z UTC
+X-WR-CALDESC:Automatisch aktualisiert am 20260719T000741Z UTC
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -1621,12 +1621,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wm2026-fd-537389@wm2026
-SUMMARY:🔴 LIVE 🇫🇷 France 4:5 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
+SUMMARY:🇫🇷 France 4:6 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
 DTSTART;TZID=Europe/Berlin:20260718T230000
 DTEND;TZID=Europe/Berlin:20260719T010000
 LOCATION:
 DESCRIPTION:⚽ FIFA WM 2026 – Spiel um Platz 3\n\n\n⏰ Anstoß: 23:00 U
- hr (MESZ)\n\n🔴 Spiel läuft
+ hr (MESZ)\n\n✅ Endstand: 4:6
 URL:https://web.magentatv.de
 BEGIN:VALARM
 TRIGGER:-PT30M
